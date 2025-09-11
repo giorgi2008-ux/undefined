@@ -6,3 +6,6 @@ if number % 20 == 0:
 
 else:
     print(False)
+
+a = "hello"
+print(a)
