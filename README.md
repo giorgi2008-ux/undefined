@@ -52,4 +52,4 @@ power-toys:
 alt + space = მარტივად დასერჩვა
 win + ctrl + shift + m = სახაზავი
 win + shift + c = color ებს ძებნის
-```
+``` 
