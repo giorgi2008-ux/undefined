@@ -23,5 +23,9 @@ name=input( "რა გქვიათ?: " )
 for i in range(5):
     print( "hello" + name ) 
 
+# დავალება 5
+# for i in range5
+# print("i")
+
 for i in range(5):
     print("i")
