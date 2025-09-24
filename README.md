@@ -1,5 +1,5 @@
 ```
-ctrl + (mouse click)  ნეიბისმიერ ლინზე გადასვლა
+<!-- ctrl + (mouse click)  ნეიბისმიერ ლინზე გადასვლა
 Ctrl + C - ასლი (Copy)
 Ctrl + V - ჩასმა (Paste)
 Ctrl + X - გაჭრა (Cut)
@@ -52,4 +52,4 @@ power-toys:
 alt + space = მარტივად დასერჩვა
 win + ctrl + shift + m = სახაზავი
 win + shift + c = color ებს ძებნის
-``` 
+```  -->
