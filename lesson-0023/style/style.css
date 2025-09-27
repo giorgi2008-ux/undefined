@@ -1,0 +1,51 @@
+/* rest css */
+/* rest css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* rest css end */
+
+/* text color start */
+.giorgi {
+  color: rgb(26, 255, 0);
+}
+/* --------------- */
+.luka {
+  color: black;
+}
+/* --------------- */
+.datvi {
+  color: rgb(255, 0, 0);
+}
+/* ---------------- */
+.font-weight-bold {
+  font-weight: bold;
+  color: blue;
+}
+/* text color end */
+
+
+/* square start*/
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(61, 97, 180);
+}
+/* square end */
+
+
+/* text align start */
+.text-end {
+  text-align: end;
+}
+
+.text center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+/* text align end  */
