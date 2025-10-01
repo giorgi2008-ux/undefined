@@ -1,3 +1,3 @@
-x=input("მუშაობს მაცივარი?")
-x=444
+x=input("does it works?: ")
+x="gio"
 print(x)

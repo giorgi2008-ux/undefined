@@ -1,0 +1,20 @@
+/* rest css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* rest css end */
+/* text align start */
+.text-end {
+  text-align: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+/* text align end  */

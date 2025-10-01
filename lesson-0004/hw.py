@@ -16,8 +16,8 @@
 
 # დავალება2
 
-x=int(input("შეიყვანე ციფრი:"))
-y=int(input("კიდევ"))
+x=int(input("enter number:"))
+y=int(input("agin"))
 print(x+y)
 
 

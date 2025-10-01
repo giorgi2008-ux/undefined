@@ -42,5 +42,16 @@ else:
 
 
  #---indentaion error/კედლიდან დაშორება---
+x=5
+kenti="ricxvi kentia?" + str(x % 2 ==1)
+luwi="ricxvi luwia?" + str(x % 2 ==0)
+print(kenti)
+print(luwi)
 
 
+z=12
+a=17
+T=(z + x == 2)
+G=(z + x != 29)
+print(T and G)
+print(T or G)

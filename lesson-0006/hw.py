@@ -7,7 +7,7 @@
 # ბულიანი არის true და false , <> მეტია-ნაკლებია,+- პლიუს მინუსი,*/ გამრავლება გაყოფა.
 name="gio"
 citi="chiatura"
-print(name+citi)
+print(name,citi)
 
 x=100
 y=290

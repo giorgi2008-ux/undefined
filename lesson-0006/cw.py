@@ -6,10 +6,10 @@
 # ᲓᲐᲕᲐᲚᲔᲑᲐ1
 x=("gio")
 y=("luka")
-print(x+y)
+print(x,y)
 
 # ᲓᲐᲕᲐᲚᲔᲑᲐ2
-print("ოპა")
+print("hoo")
 print(35)
 print(3.5)
 print(3>2)
@@ -26,7 +26,7 @@ print(y1+(int(x1)))
 
 
 num=20
-print(str(num))
+print(str(num)) #გადააქცია სტრინგად
 
-print(int(dog))
 dog="300"
+print(int(dog))გადააქცია ინტეგერად

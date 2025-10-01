@@ -1,2 +1,2 @@
-user=input("რით დაგეხმაროთ?: ")
-print("გასაგებია")
+user=input("what can i do?: ")
+print("ok")
