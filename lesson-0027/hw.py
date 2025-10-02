@@ -38,7 +38,7 @@ for i in range(len(z)):
 print("-------------------")
 
 z=[1,2,3,4,5,6,7,8,9,10]
-for i in range(len(z)):
+for i in range(0,len(z),2):
     if z[i] % 2 == 0:
         print(z[i])
 print("-------------------")
@@ -62,4 +62,4 @@ name="gio"
 print(name[::-1])
 print(name[0])
 print(name[1])
-print(name[2])
+print(name[0])
