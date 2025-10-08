@@ -3,6 +3,6 @@
 #     print(len(new_list))
     
 a=[]
-for i in range(100):
+for i in range(1000):
     a.append(i)
 print(a)

@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* rest css end */
+/* text align start */
+.text-end {
+  text-align: end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+/* text align end  */
+
+.p1{
+    color: rgb(2, 126, 19);
+}
+
+.h1-1{
+    color: rgb(0, 153, 255);
+    text-align: center;
+    margin-top: 20px;
+}
+/* ------------------------- */
+
+h1 {
+  color: #1877f2;         /* ლურჯი */
+   font-size: 48px;        /*ზომა*/
+  text-align: left;       /*მარცხნივ გასწორება*/
+  margin: 40px 0 0 530px; /*ზემოდან და მარცხნიდან დაშორება*/
+  position: absolute;     /*თავისუფალი განლაგება*/
+  top: 0;                 /*ზედა მხრიდან*/
+  left: 0;                /*მარცხენა მხრიდან*/
+}
+/* ------------------------------ */
+body {
+  background: linear-gradient(120deg, rgb(104, 99, 99), rgb(221, 221, 221));
+}
+/* -------------------- */
+.pass{
+  text-align: center;
+  margin-top: 10;
+}
+/* -------------- */
+/* გვერდის ფონიც */
+body {/* გვერდის ფონის ფერი ღია ნაცრისფერი */
+  display: flex;                 /* body ხდება flex container */
+  justify-content: center;       /* შიგნით ელემენტები ჰორიზონტალურად ცენტრში */
+  align-items: center;           /* შიგნით ელემენტები ვერტიკალურად ცენტრში */
+  height: 100vh;                 /* body-ს სიმაღლე არის მთლიანი ეკრანის სიმაღლე */
+  font-family: Arial, sans-serif;/* ტექსტის შრიფტი – Arial ან მსგავსი */
+}
+
+/* თეთრი ყუთი */
+.login-box {
+  background: rgb(198, 198, 198);             /* ყუთის ფერი თეთრი */
+  padding: 10px;                 /* შიგნით სივრცე 20px */
+  width: 330px;                  /* სიგანე 320px */
+  border-radius: 6px;            /* კუთხეები მომრგვალებული 6px */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* ჩრდილი ყუთს */
+  text-align: center;            /* შიგნით ტექსტი ცენტრში */
+}
+
+/* შესაყვანი ველები */
+.login-box input {
+  width: 100%;                   /* იკავებს მთელ სიგანეს */
+  padding: 12px;                 /* ტექსტის გარშემო შიგნით 12px */
+  margin: 8px 0;                 /* ზემოთ და ქვემოთ 8px დაშორება */
+  border: 1px solid #ccc;        /* კიდე 1px სიგანის ნაცრისფერი */
+  border-radius: 4px;            /* მომრგვალებული კუთხეები */
+}
+
+/* ღილაკები */
+.login-box button {
+  width: 100%;                   /* ღილაკი იკავებს მთელ სიგანეს */
+  padding: 12px;                 /* შიგნით დაშორება 12px */
+  border: none;                  /* კიდე (border) არ აქვს */
+  border-radius: 6px;            /* მომრგვალებული კუთხეები */
+  font-weight: bold;             /* ტექსტი სქელი (bold) */
+  cursor: pointer;               /* მაუსის მიტანისას "ხელის" კურსორი */
+}
+
+/* ლოგინის ღილაკი */
+.login-btn {
+  background: #1877f2;           /* ლურჯი ფონი (facebook-ის ფერი) */
+  color: white;                  /* თეთრი ტექსტი */
+}
+
+/* ახალი ექაუნთის ღილაკი */
+.create-btn { 
+  background: #42b72a;           /* მწვანე ფონი */
+  color: white;                  /* თეთრი ტექსტი */
+  margin-top: 10px;              /* ზემოთ დაშორება 10px */
+}
