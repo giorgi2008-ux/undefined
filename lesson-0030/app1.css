@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ul-1{
+    color: rgb(13, 255, 255);
+    padding: 40px;
+}
+
+
+.ul-2{
+    color: rgb(255, 0, 0);
+    padding: 30px;
+}
+
+
+.ul-3{
+    color: rgb(0, 255, 17);
+    padding: 20px;
+    text-decoration:line-through ;
+}
+.first_li{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-shadow: 1px 1px 2px green;
+}

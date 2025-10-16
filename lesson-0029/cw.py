@@ -11,12 +11,15 @@ lomi()
 print(lomi())
 
 print("----------------------")
-a="hallo"
-def real_greeting(name):
-    return a + ( name)
-print(real_greeting("gio"))
+def real_greeting(a,b,g):
+    return  a + b + g
+print(real_greeting(1,2,6))
 
 
-hallo_world=("print")
-print(hallo_world)
+def rel_greeting(name):
+
+    return "hallo" + name
+
+print(rel_greeting("gio"))
+
 

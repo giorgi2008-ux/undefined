@@ -8,10 +8,16 @@ print("-------------------")
 def greeting(): #ასე ვქმნით ფუნქციას
     return"bobi"# რაც გვიწერია return ში იმას გადააქცევს ჩვენ შექმნილ ფუნქციად
 
-greeting()#ფუნქციის გამოძახება
+#greeting()#ფუნქციის გამოძახება
 print(greeting())#ფუნქციის გამოძახება ტერმინალში
 
 
 def real_greeting(name):
-    return "hallo" + ( name)
+    return "hallo " +  name
 print(real_greeting("gio"))
+print(real_greeting("saba"))
+
+def real_name(surname):
+    return "hallo " + surname
+print(real_name("papidze"))
+print(real_name("cercvadze"))
