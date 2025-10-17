@@ -6,23 +6,38 @@
 
 .ul-1{
     color: rgb(13, 255, 255);
-    padding: 40px;
+
+    
 }
 
 
 .ul-2{
     color: rgb(255, 0, 0);
-    padding: 30px;
+    padding: 30px;    
 }
 
 
 .ul-3{
     color: rgb(0, 255, 17);
     padding: 20px;
-    text-decoration:line-through ;
 }
 .first_li{
-    color: rgb(0, 0, 0);
+    color: rgb(155, 117, 117);
     text-align: center;
-    text-shadow: 1px 1px 2px green;
+    text-decoration:line-through ;
+    text-shadow: 0px 0px 5px rgb(255, 0, 0);
+    
+    /* border width, border style, border color */
+    border: 1px ;
+    /* border-style: solid; */ /* შეგვიძლია ჩარჩოში ჩავსვათ ასე ან უბრალოდ დავუწეროთ border top,border left,border bottom,border right*/
+    border-color: rgb(255, 0, 0);
+    border-top:  2px solid rgb(0, 4, 255);
+    border-bottom: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+
+}
+
+.second-li{
+    padding: 40px;
+    
 }
