@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-liner{
+    background-image:
+    linear-gradient(rgba(38, 255, 0, 0.406)),
+    linear-gradient(rgba(255, 0, 0, 0.417)),
+    linear-gradient(rgba(0, 0, 255, 0.546));
+    height: 100vh;
+    width: 100%;
+}
+
+
+/* 
+საზომი ერთეული
+px
+%   ყველაზე სახიფათო
+
+*/

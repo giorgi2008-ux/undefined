@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: linear-gradient(red,blue);
+    font-family:"Dancing Script", cursive;
+}
+
+.h1{
+    text-align: center;
+    color: aqua;
+}
+
+.img img {
+    width: 600px;
+    height: auto;
+}
+
+.img{
+    text-align: center;
+}

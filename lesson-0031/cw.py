@@ -14,5 +14,5 @@ def skeleton(a,b):
         return "Here u go 55 bone"
     else:
         return "U never get bones!"
-    return a + b
-print(skeleton(50,5))
+    # return a + b
+print(skeleton(50,0))
