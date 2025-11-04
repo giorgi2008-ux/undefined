@@ -17,3 +17,14 @@ salome = 4
 
 print("solomoni aris 55 wlis")
 
+#შეგვიძლია ერთ ხაზშ შევქმნათ რამდენიმე ცვლადი
+a, b, c = "gio", "Gio", "GIO"
+print (a)
+print (b)
+print (c)
+
+# ასევე შეგვიძლია რამდენიმე ცვლადს ერთ და იმავე მნიშვნელობა მივანიჭოთ
+q=w=e="GiO"
+print (q)
+print (w)
+print (e)

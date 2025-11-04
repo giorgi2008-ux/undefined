@@ -15,3 +15,10 @@ print("-------------")
 
 slice_text=["d","i","l","a","m","s","h","v","i","d","o","b","i","s","a"]
 print(slice_text[:4],slice_text[4:])
+
+#მნიშვნელობა ასევე შეგვიძლია მივანიჭოთ ასე
+car=["bmw", "opel", "audi"]
+a ,b ,c=car
+print(a)
+print(b)
+print(c)
