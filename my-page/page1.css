@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.hr1{
+    width: 30%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.text{
+    width: 530px;
+    text-align: center;
+    margin-left: 700px;
+    margin-top: 30px;
+    margin: 20px auto;
+}
+/* 
+body{
+    background-image: linear-gradient(rgb(86, 80, 80),rgb(255, 255, 255),rgb(130, 117, 117));
+} */

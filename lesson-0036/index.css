@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.roboto-font{
+  font-family: "Roboto","Noto Sans Georgian", sans-serif;
+  text-align: center;
+  color: aliceblue;
+  font-weight: 900;
+  font-style: oblique;
+}
+
+body{
+    background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 255, 255));
+    height: 100vh;
+    width: 100%;
+}   
+
+.h1{
+    font-family:"Dancing Script", cursive;
+    text-align: center;
+    color: aliceblue;
+}
+.img{
+    text-align: center;
+    margin-top: 50px;
+}
+.p1{
+    font-weight: 100;
+}
+
+
+.p2{
+    font-weight: 200;
+    font-size: 30px;
+    color: red;
+
+}

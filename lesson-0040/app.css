@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient( red, yellow);
+      
+}
+
+.box2 {
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient( blue, purple);
+}
+
+.box3 {
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient( green, lime);
+}
+
+.box4 {
+    width: 2rem;
+    height: 2rem;
+    background-image: linear-gradient( orange, pink);
+}

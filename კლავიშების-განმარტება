@@ -66,3 +66,198 @@
 <!-- <ins> --------- ესეც ქვედა ხაზის გასმა -->
 <!-- <sub> --------- პატარა ასოებით დაიწერება და თან ცოტა ქვევით ჩაიწევა -->
 <!-- <sup> --------- პატარა ასოებით დაიწერება ოღონდ ცოტაევით აიწევა-->
+
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+
+
+
+; 💙 WINDOWS (General)
+; 🔹 Ctrl + A – Select all
+; 🔹 Ctrl + C – Copy
+; 🔹 Ctrl + X – Cut
+; 🔹 Ctrl + V – Paste
+; 🔹 Ctrl + Z – Undo
+; 🔹 Ctrl + Y – Redo
+; 🔹 Ctrl + S – Save
+; 🔹 Ctrl + P – Print
+; 🔹 Ctrl + N – New window/document (app-dependent)
+; 🔹 Ctrl + O – Open file
+; 🔹 Ctrl + W – Close tab/window (context-dependent)
+; 🔹 Ctrl + F – Find/Search
+; 🔹 Ctrl + H – Replace (app-dependent)
+; 🔹 Ctrl + K – Insert hyperlink (many apps incl. Office)
+; 🔹 Ctrl + T – New tab (browsers, some apps)
+; 🔹 Ctrl + Tab – Next tab
+; 🔹 Ctrl + Shift + Tab – Previous tab
+; 🔹 Ctrl + Shift + T – Reopen closed tab (browsers)
+; 🔹 Ctrl + Shift + N – New folder (File Explorer) / New Incognito window (browsers)
+; 🔹 Ctrl + Esc – Open Start menu
+; 🔹 Ctrl + Alt + Del – Security options
+; 🔹 Ctrl + Shift + Esc – Task Manager
+; 🔹 Alt + Tab – Switch apps
+; 🔹 Alt + F4 – Close app/window
+; 🔹 Alt + Enter – Properties (File Explorer)
+; 🔹 Alt + Space – Window menu
+; 🔹 Alt + Left/Right – Back/Forward (browser/Explorer)
+; 🔹 Win + D – Show desktop
+; 🔹 Win + E – Open File Explorer
+; 🔹 Win + R – Run dialog
+; 🔹 Win + L – Lock computer
+; 🔹 Win + I – Settings
+; 🔹 Win + M – Minimize all
+; 🔹 Win + Shift + M – Restore minimized windows
+; 🔹 Win + S – Search
+; 🔹 Win + X – Power user menu
+; 🔹 Win + V – Clipboard history
+; 🔹 Win + . – Emoji panel
+; 🔹 Win + Shift + S – Screenshot (Snipping tool)
+; 🔹 Win + H – Voice typing
+; 🔹 Win + P – Project screen
+; 🔹 Win + A – Quick Settings/Action Center (version-dependent)
+; 🔹 F1 – Help
+; 🔹 F2 – Rename (File Explorer)
+; 🔹 F4 – Address bar dropdown (Explorer); Repeat last action in Office
+; 🔹 F5 – Refresh (most apps); Go To in Excel
+; 🔹 F11 – Full screen (browsers, some apps)
+; 💚 EXCEL (Windows)
+; CTRL Shortcuts
+; 🔹 Ctrl + Space – Select column
+; 🔹 Shift + Space – Select row
+; 🔹 Ctrl + Shift + + – Insert cells/rows/columns (dialog or based on selection)
+; 🔹 Ctrl + - – Delete cells/rows/columns (dialog or based on selection)
+; 🔹 Ctrl + ; – Insert current date
+; 🔹 Ctrl + Shift + ; – Insert current time
+; 🔹 Ctrl + Home – Go to A1 (or first cell in used range)
+; 🔹 Ctrl + End – Go to last used cell
+; 🔹 Ctrl + 1 – Format Cells dialog
+; 🔹 Ctrl + Shift + ~ – General number format
+; 🔹 Ctrl + Shift + $ – Currency format
+; 🔹 Ctrl + Shift + % – Percentage format
+; 🔹 Ctrl + Shift + ! – Number format with two decimals
+; 🔹 Ctrl + F – Find
+; 🔹 Ctrl + H – Replace
+; 🔹 Ctrl + G / F5 – Go To
+; 🔹 Ctrl + Page Down – Next worksheet
+; 🔹 Ctrl + Page Up – Previous worksheet
+; 🔹 Ctrl + T – Create Table
+; 🔹 Ctrl + F3 – Name Manager
+; 🔹 Ctrl + ` – Show/Hide formulas (backtick)
+; 🔹 Ctrl + ' – Copy formula from cell above
+; 🔹 Ctrl + Shift + & – Apply outline border
+; 🔹 Ctrl + 9 – Hide rows
+; 🔹 Ctrl + Shift + 9 – Unhide rows
+; 🔹 Ctrl + 0 – Hide columns
+; 🔹 Ctrl + Shift + ) – Unhide columns (reliable); Ctrl + Shift + 0 may be blocked by OS
+; 🔹 Ctrl + Shift + Enter – Legacy array formula (modern Excel: Enter for dynamic arrays)
+; ALT Shortcuts
+; 🔹 Alt + = – AutoSum
+; 🔹 Alt + ; – Select visible cells only
+; 🔹 Alt + Down Arrow – Open in-cell dropdown / filter dropdown (on header cell)
+; 🔹 Alt + Enter – Line break within a cell
+; 🔹 Alt + Shift + Right Arrow – Group
+; 🔹 Alt + Shift + Left Arrow – Ungroup
+; 🔹 Alt + W, F, F – Freeze Panes
+; 🔹 Alt + W, F, R – Freeze Top Row
+; 🔹 Alt + W, F, C – Freeze First Column
+; 🔹 Alt + W, S – Split window
+; 🔹 Alt + A, T – Toggle Filter (on/off)
+; 🔹 Alt + A, C – Clear filters
+; 🔹 Alt + A, V, V – Data Validation dialog
+; 🔹 Alt + A, S, A – Sort A to Z
+; 🔹 Alt + A, S, D – Sort Z to A
+; Paste Special (quick keys)
+; 🔹 Ctrl + Alt + V – Open Paste Special (then F = Formulas, T = Formats, W = Column widths)
+; OTHER
+; 🔹 F2 – Edit active cell
+; 🔹 Shift + F11 – New worksheet
+; 🔹 Shift + F2 – Insert/Edit note (legacy comment)
+; 🔹 F4 – Repeat last action / Toggle absolute refs during edit
+; 🔹 F9 – Calculate worksheets (scope depends on calc mode/selection)
+; 🔹 F12 – Save As
+; 💜 WORD (Windows)
+; 🔹 Ctrl + B – Bold
+; 🔹 Ctrl + I – Italic
+; 🔹 Ctrl + U – Underline
+; 🔹 Ctrl + D – Font dialog
+; 🔹 Ctrl + E – Center align
+; 🔹 Ctrl + J – Justify align
+; 🔹 Ctrl + L – Left align
+; 🔹 Ctrl + R – Right align
+; 🔹 Ctrl + M – Increase indent
+; 🔹 Ctrl + Q – Clear paragraph formatting
+; 🔹 Ctrl + T – Hanging indent
+; 🔹 Ctrl + Enter – Page break
+; 🔹 Ctrl + Shift + > – Increase font size
+; 🔹 Ctrl + Shift + < – Decrease font size
+; 🔹 Ctrl + 1 – Single line spacing
+; 🔹 Ctrl + 2 – Double line spacing
+; 🔹 Ctrl + 5 – 1.5 line spacing
+; 🧡 POWERPOINT (Windows)
+; 🔸 Alt + W, L – Normal view
+; 🔸 Alt + W, I – Slide Sorter view
+; 🔸 Alt + W, D – Reading view
+; 🔸 F5 – Start slideshow from beginning
+; 🔸 Shift + F5 – Start slideshow from current slide
+; 🔸 Ctrl + M – New slide
+; 🔸 Ctrl + D – Duplicate selected object/slide
+; 🔸 Ctrl + Shift + C / Ctrl + Shift + V – Copy/Paste formatting
+; 🔸 Ctrl + G – Group
+; 🔸 Ctrl + Shift + G – Ungroup
+; 🩵 OUTLOOK (Windows) [optional]
+; 🔹 Ctrl + R – Reply
+; 🔹 Ctrl + Shift + R – Reply All
+; 🔹 Ctrl + F – Forward
+; 🔹 Ctrl + N – New email
+; 🔹 Ctrl + Enter – Send email
+; 🔹 Ctrl + 1 – Mail
+; 🔹 Ctrl + 2 – Calendar
+; 🔹 Ctrl + 3 – Contacts
+; 🔹 Ctrl + 4 – Tasks
+; 🖤 WINDOWS EXPLORER specifics
+; 🔹 Alt + Up – Go to parent folder
+; 🔹 Alt + Left/Right – Back/Forward
+; 🔹 Ctrl + Shift + N – New folder
+; 🔹 F2 – Rename
+; 🔹 Ctrl + L or Alt + D – Focus address bar
+; 🧠 MAC (General)
+; 🔷 ⌘ + A – Select all
+; 🔷 ⌘ + C – Copy
+; 🔷 ⌘ + X – Cut
+; 🔷 ⌘ + V – Paste
+; 🔷 ⌘ + Z – Undo
+; 🔷 ⌘ + Shift + Z – Redo
+; 🔷 ⌘ + S – Save
+; 🔷 ⌘ + P – Print
+; 🔷 ⌘ + N – New window/document
+; 🔷 ⌘ + T – New tab (browsers/Finder)
+; 🔷 ⌘ + Q – Quit app
+; 🔷 ⌘ + W – Close window/tab
+; 🔷 ⌘ + , – Preferences
+; 🔷 ⌘ + Space – Spotlight search
+; 🔷 ⌘ + Tab – Switch apps
+; 🔷 ⌥⌘ + Esc – Force Quit
+; 🔷 ⌘ + Delete – Move to Trash
+; 📸 MAC Screenshots
+; 🔷 ⌘ + Shift + 3 – Full screenshot
+; 🔷 ⌘ + Shift + 4 – Selection screenshot
+; 🔷 ⌘ + Shift + 5 – Screenshot & screen recording options
+; 🗂️ FINDER (macOS)
+; 🔷 ⌘ + 1 – Icon view
+; 🔷 ⌘ + 2 – List view
+; 🔷 ⌘ + 3 – Column view
+; 🔷 ⌘ + 4 – Gallery view
+; 🔷 ⌘ + ↑ – Open enclosing folder
+; 🔷 ⌘ + K – Connect to server
+; 🔷 ⌘ + Shift + G – Go to folder
+; 🌐 SAFARI (macOS)
+; 🔷 ⌘ + 1…8 – Switch to tab 1…8
+; 🔷 ⌘ + 9 – Switch to last tab
+; 🔷 ⌘ + L – Focus address bar
+; 🔷 ⌘ + Y – History
+; 🔷 ⌘ + Shift + L – Reading List sidebar
+; 🔷 ⌘ + Option + 2 – Show Reading List 

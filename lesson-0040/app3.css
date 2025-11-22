@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ .parent{
+    display: flex;
+    gap: 50px;
+    background: rgb(151, 140, 140);
+    padding: 248px;
+}
+
+.child{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(black,rgb(151, 140, 140));
+}
+

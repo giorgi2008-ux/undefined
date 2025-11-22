@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  .parent {
+    display: flex;
+    gap: 1000px;
+    background: #eee;
+    padding: 10px;
+  }
+
+  .child {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(45deg, red, blue);
+    text-align: center;
+  }
