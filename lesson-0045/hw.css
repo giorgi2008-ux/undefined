@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+        
+}
+
+.parent{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+.div{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+
+}
