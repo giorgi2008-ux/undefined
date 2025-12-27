@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pr{
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+}
+
+.div1{
+    background-color: rgb(114, 201, 255);
+    width: 300px;
+    height: 300px;
+}
+.div2{
+    background-color: rgb(241, 94, 255);
+    width: 300px;
+    height: 300px;
+}
+.div3{
+    background-color: rgb(114, 86, 255);
+    width: 600px;
+    height: 100px;
+}
+

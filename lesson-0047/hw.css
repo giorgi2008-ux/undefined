@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Div{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.div{
+    background-color: rgb(160, 88, 88);
+    width: 200px;
+    height: 200px;
+
+}

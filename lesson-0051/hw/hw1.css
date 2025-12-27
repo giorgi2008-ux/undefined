@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pr{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    
+
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.div1{
+    width: 50px;
+    height: 70px;
+    background-color: green;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.div2{
+    width: 300px;
+    height: 70px;
+    background-color: green;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+
+.div3{
+    width: 100px;
+    height: 70px;
+    background-color: green;
+    border: 2px solid rgb(0, 0, 0);
+
+}
