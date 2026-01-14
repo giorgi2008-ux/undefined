@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pr{
+    display: flex;
+    width: 600px;
+    height: 550px;
+    gap: 50px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+} 
+
+.div1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 0, 0);
+}
+
+
+.pr2{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.div2{
+    width: 140px;
+    height: 115px;
+    background-color: rgb(255, 0, 0);
+}
+
+.pr3{
+    width: 300px;
+    height: 250px;
+    background-color: aliceblue;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+

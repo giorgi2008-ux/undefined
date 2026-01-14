@@ -23,6 +23,6 @@ b="შუქი_გამორთულია"
 kitxva=(input("მიუთითე შუქი_ჩართულია ან შუქი_გამორულია. შუქი ჩართულია?: "))
 if ( kitxva == v ):
     print(True)
-if ( kitxva == b ):
+elif ( kitxva == b ):
     print(False)
- 
+print(kitxva)

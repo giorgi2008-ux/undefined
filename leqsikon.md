@@ -81,7 +81,7 @@
 ### i 
 
 <ol>
-    <li><li/>
+    <li>introduction-შესავალი   <li/>
     <li><li/>
     <li><li/>
     <li><li/>
@@ -181,7 +181,7 @@
 ### s 
 
 <ol>
-    <li><li/>
+    <li>scourge<li/>
     <li><li/>
     <li><li/>
     <li><li/>
