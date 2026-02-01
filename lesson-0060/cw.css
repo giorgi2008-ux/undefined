@@ -1,0 +1,50 @@
+ body {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.boxes {
+    display: grid;
+    gap: 20px;
+    width: 800px;
+    height: 600px;
+
+    grid-template-columns: repeat(6);
+    grid-template-areas:
+        "b1 b1 b1 b1 b2 b2"
+        "b3 b3 b3 b3 b2 b2"
+        "b4 b4 b5 b5 b5 b5";
+}
+    
+.box {
+    color: #000;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.b1 {
+    grid-area: b1;
+    background: cyan;
+}
+
+.b2 {
+    grid-area: b2;
+    background: magenta;
+}
+
+.b3 {
+    grid-area: b3;
+    background: yellow;
+}
+
+.b4 {
+    grid-area: b4;
+    background: lime;
+}
+
+.b5 {
+    grid-area: b5;
+    background: orange;
+}

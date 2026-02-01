@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top:150px;
+            background-color: aquamarine;
+            
+        }
+
+        .perent{
+            display: grid;
+            width: 500px;
+            height: 500px;
+            /* gap: 10px; */
+            /* background-color:black ;  */
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            
+        }
+        
+        .div1{
+            background-color: rgb(255, 0, 0);
+            grid-column: 1 / 4;
+            border-top-left-radius: 250px;
+            border-top-right-radius: 200px;
+
+
+        }
+
+        .div2{
+            background-color: rgb(240, 255, 26);
+            grid-row: 2 / 3;
+            grid-column: 3;
+
+        }
+        
+        .div3{
+            background-color: rgb(61, 114, 213);
+            grid-column: 2 / 3;
+        }
+
+        .div4{
+            background-color: rgb(9, 255, 0);
+            grid-row: 2 / 4;
+            border-bottom-left-radius:200px ;
+        }
+
+        .div5{
+            background-color: rgb(240, 255, 26);
+            grid-column: 2 / 4;
+            border-bottom-right-radius: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="perent">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+    </div>
+</body>
+</html>
