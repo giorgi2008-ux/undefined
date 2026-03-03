@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+
+        .perent{
+            display: grid;
+            gap: 50px; 
+            width: 1000px;
+            height: 600px;
+            background-color: rgb(243, 243, 243);
+            margin-top: 110px;
+            padding: 50px;
+            grid-template-columns:1fr 1fr 1fr 1fr ;
+            grid-row:1fr 1fr ;
+            box-shadow: 15px 15px 30px rgb(138, 137, 137);
+        }
+
+        .imgg{
+            width: 40px;
+            border-radius: 50px;
+
+        }
+
+        .perent2{
+            padding-left: 10px;
+            /* padding-top: 10px; */
+        }
+
+        .dvvv{
+            color: white;
+        }
+
+        .div1{
+            background-color: rgb(115, 63, 199);
+            grid-column: 1/2 span;
+            border-radius: 10px;
+            padding-top: 10px;
+
+
+
+        }
+
+        .pr3{
+            display: flex;
+            gap: 20px;
+        }
+
+        .div2{
+            background-color:rgb(73, 85, 106);
+            border-radius: 10px;
+
+        }
+
+        .div3{
+            background-color:rgb(255, 255, 255);
+            grid-row: 1 / 2 span;
+            grid-column: 4;
+            border-radius: 10px;
+
+
+        }
+
+        .div4{
+            background-color:rgb(255, 255, 255);
+            border-radius: 10px;
+
+        }
+
+        .div5{
+            background-color:rgb(25, 32, 46) ;
+            grid-column: 2/4;
+            border-radius: 10px;
+
+        }
+
+        .pr1{
+            color: white;
+            /* padding: 10px;
+            padding-top: 50px; */
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="perent">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+    </div>
+</body>
+</html>

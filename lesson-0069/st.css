@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(77, 43, 33);
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+
+
+}
+
+.main{
+    background-color: rgb(205, 213, 255);
+    height: 100vh;
+    font-size: 30px;
+}

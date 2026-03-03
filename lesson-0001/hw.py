@@ -20,4 +20,11 @@ print("-----------")
 
 name="gio"
 age=17
-print ("my name is", name, "and i am", age, "years old")
+print ("my name is", name, "and i am", age, "years old") 
+
+x = 3
+y = 3
+print (x == y)
+
+a = ()
+print(type(a))

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            margin-top: 200px;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .pr{
+            width: 400px;
+            height: 500px;
+            /* background-color: antiquewhite; */
+        }
+
+        .pr2{
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            
+        }
+
+        .d1{
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+        }
+
+        .pr3{
+            display: flex;
+            justify-content: center;
+        }
+
+        .d2{
+            background-color: rgb(0, 30, 255);
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+            position: absolute;
+            top: 250px;
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+            padding: 70px ;
+        }
+
+        .d3{
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="pr">
+        <div class="pr2">
+            <div class="d1"></div>
+            <div class="d1"></div>
+        </div>
+        <div class="pr3">
+            <div class="d2">
+                <div class="d3"></div>
+                <div class="d3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

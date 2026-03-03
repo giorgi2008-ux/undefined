@@ -5,6 +5,8 @@ person = {
     "age":"17"
 }
 print(person["name"])
+print(person["age"])
+
 
 print("------------------")
 
