@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header-sec {
+    display: flex;
+    height: 90px;
+    padding: 40px;
+    padding-left: 150px;
+    /* padding-right: 1px; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    gap: 700px;
+    align-items: center;
+
+}
+
+
+.nav1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.logo {
+    font-size: 22px;
+    padding-left: 120px;
+}
+
+.header-sec button {
+    padding: 15px;
+    border-radius: 100px;
+    background: black;
+    color: aliceblue;
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.header-sec2 {
+    /* padding: 10px; */
+    padding-left: 275px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.header-sec2 div {
+    font-size: 22px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-weight: 100;
+    width: 100px;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}

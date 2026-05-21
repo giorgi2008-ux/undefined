@@ -1,13 +1,13 @@
-a = "gio"
-def func(a):
-    return a
-print(func(a))
+# a = "gio"
+# def func(a):
+#     return a
+# print(func(a))
 
-print("------------")
+# print("------------")
 
-def func(i):
-    return i
-print(func("gio"))
+# def func(i):
+#     return i
+# print(func("gio"))
 
 #დააბრუნებს ერთი და იმავე პასუხს.
 
@@ -15,10 +15,19 @@ print(func("gio"))
     
 
 
-price = "1234"
-def to_currency(price):
-    g = ""
-    for i in price:
-      g += i
-    return g   
-print(to_currency(price))  
+# price = "1234"
+# def to_currency(price):
+#     g = ""
+#     for i in price:
+#       g += i
+#     return g   
+# print(to_currency(price))  
+
+lst = [1,2,3]
+def invert(lst):
+    res =[]
+    for i in lst:
+        if i > 0:
+            res.append(-i)
+    return res
+print(invert(lst))

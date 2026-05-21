@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.perent {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+
+}
+
+.conteiner {
+    margin-top: 100px;
+    /* margin-left: 350px; */
+}
+
+.p1 {
+    font-size: 30px;
+}
+
+.p2 {
+    letter-spacing: 15px;
+    color: red;
+    font-size: 40px;
+
+}
+
+.p3 {
+    letter-spacing: 15px;
+    color: black;
+    font-size: 50px;
+}
+
+.p4 {
+    color: red;
+    letter-spacing: 2px;
+}
+
+.conteiner button {
+    height: 40px;
+    width: 300px;
+    border-radius: 50px;
+    color: red;
+    border: 1px solid red;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.conteiner button:hover {
+    height: 30px;
+    width: 295px;
+    background-color: red;
+    color: white;
+}
+
+.conteiner2 img {
+    /* width: 500px; */
+    height: 99vh;
+    margin-right: auto;
+}

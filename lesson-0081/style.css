@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.We{
+    color: red;
+    font-weight: 200;
+}
+
+@media(min-width:375px){
+    body{
+        /* background-color: aqua; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .We{
+        color: red;
+        font-weight: 200;
+    }
+
+    h1{
+        text-align: center;
+        font-weight: 600;
+        font-size: 36px;
+    }
+
+    .phone_logo{
+        width: 100%;
+    }
+
+    .phone_logo img{
+        width: 100%;
+    }
+
+    .container p{
+        max-width: 340px;
+        text-align: center;
+        margin: 0 auto;
+        line-height: 1.6;
+    }
+    .logo img{
+        padding-left: 10px;
+    }
+}

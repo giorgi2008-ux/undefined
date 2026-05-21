@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lomi Task</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* ===== დავალება 2 ===== */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .container .lomi {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .container .lomi:nth-child(8n) {
+            background-color: green;
+            width: 500px;
+            height: 500px;
+        }
+
+        /* ===== დავალება 3 ===== */
+        .lomi-box {
+            width: 300px;
+            height: 300px;
+            background-color: green;
+            position: relative;
+            overflow: hidden;
+            margin: 50px;
+        }
+
+        .lomi-box::before {
+            content: "";
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            position: absolute;
+            top: 0;
+            right: -50px;
+            border-top-left-radius: 100%;
+            border-bottom-left-radius: 100%;
+            z-index: 2;
+        }
+
+        .lomi-box::after {
+            content: "";
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            right: -50px;
+            border-top-right-radius: 100%;
+            border-bottom-right-radius: 100%;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- დავალება 2 -->
+    <div class="container">
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+        <div class="lomi"></div>
+    </div>
+
+    <!-- დავალება 3 -->
+    <div class="lomi-box"></div>
+
+</body>
+
+</html>
