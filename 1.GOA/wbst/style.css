@@ -91,9 +91,10 @@ body {
     color: var(--text-white);
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
-nav-links
-.nav-links a:hover, 
+
+.nav-links a:hover,
 .nav-links a.active {
     color: var(--primary-color);
 }
