@@ -1,0 +1,279 @@
+/* ძირითადი პარამეტრები და ფესვური ცვლადები (CSS Variables) */
+:root {
+    --primary-color: #00ff66;
+    --bg-dark: #0a0a0a;
+    --bg-card: #141414;
+    --bg-hero: #111111;
+    --text-white: #ffffff;
+    --text-gray: #b3b3b3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    line-height: 1.6;
+}
+
+/* კონტეინერები და ბადეები (Flex & Grid) */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* ფიქსირებული მენიუ (Sticky Navbar) */
+.main-header {
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-dark);
+    border-bottom: 2px solid var(--primary-color);
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px 5%;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.logo-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: var(--text-white);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav-links
+.nav-links a:hover, 
+.nav-links a.active {
+    color: var(--primary-color);
+}
+
+/* სექციები და სათაურები */
+.hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: var(--bg-hero);
+}
+
+.hero-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    color: var(--text-gray);
+}
+
+.section-title, .page-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+/* ბარათები (Cards) და ყუთები */
+.card {
+    background-color: var(--bg-card);
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #222222;
+}
+
+.card h3 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: var(--text-gray);
+    font-size: 0.95rem;
+}
+
+/* სტატისტიკა */
+.stats-section {
+    background-color: var(--primary-color);
+    color: var(--bg-dark);
+}
+
+.stats-section .stat-card h3 {
+    color: var(--bg-dark);
+    font-size: 2.5rem;
+}
+
+.stats-section .stat-card p {
+    color: #222222;
+}
+
+/* ღილაკები */
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--bg-dark);
+}
+
+.btn-secondary {
+    border: 2px solid var(--text-white);
+    color: var(--text-white);
+    margin-left: 10px;
+}
+
+.link-btn {
+    display: inline-block;
+    margin-top: 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ფორმები */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group input, .form-group textarea {
+    padding: 10px;
+    background-color: var(--bg-card);
+    border: 1px solid #333333;
+    color: var(--text-white);
+    border-radius: 4px;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.socials a {
+    color: var(--primary-color);
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/* ტექსტური გვერდები */
+.about-text h2 {
+    margin: 20px 0 10px 0;
+    color: var(--primary-color);
+}
+
+.about-text p {
+    margin-bottom: 15px;
+    color: var(--text-gray);
+}
+
+.cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: var(--bg-hero);
+}
+
+.cta-section p {
+    margin-bottom: 20px;
+}
+
+/* ფუტერი */
+.main-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    border-top: 1px solid #222222;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: var(--text-gray);
+}
+
+/* რესპონსივი (Media Queries) */
+@media (max-width: 900px) {
+    .grid-3, .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-2, .grid-3, .grid-4 {
+        grid-template-columns: 1fr;
+    }
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .btn-secondary {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

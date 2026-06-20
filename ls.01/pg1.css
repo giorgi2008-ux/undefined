@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main_container{
+    background-color: aliceblue;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgb(189, 187, 187);
+}
+
+.pr1{
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.pr1 h1{
+    color: aqua;
+}
+
+.pr1 h3{
+    color: yellow;
+}
+
+.pr1 p{
+    color: gray;
+}
